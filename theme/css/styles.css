@@ -1,0 +1,800 @@
+	* {
+		margin:0;
+		padding:0;
+	}
+	
+	body { 
+		font-family: Tahoma,Lucida,Arial,Helvetica,sans-serif;
+		background: #f8f8f8;
+		color:#6d6d6d;
+		text-align:center;
+   }
+	
+	a {
+		text-decoration:none;
+		outline: 0 none;
+	}
+	
+	
+	img {
+		border:none
+	}
+	/*************************************************************************************************************/
+	.clear {
+		clear:both;
+	}
+	
+	.bold {
+		font-weight:bold;
+	}
+	
+	.underline {
+		text-decoration:underline;
+	}
+	
+	.italic {
+		font-style:italic;
+	}
+	
+	.upper {
+		text-transform:uppercase;
+	}
+	
+	.text-18{
+		font-size: 18px;
+	}
+	
+	.text-14{
+		font-size: 14px;
+	}
+	
+	.text-12{
+		font-size: 12px;
+	}
+	
+	.center {
+		text-align:center;
+	}
+
+	.pink {
+		color:#fe3291;
+	}
+	
+	.white {
+		color:#ffffff;
+	}
+	
+	.margin-top-10{
+		margin-top:10px;
+	}
+	
+	.margin-bottom-10{
+		margin-bottom:10px;
+	}
+	
+	/*************************************************************************************************************/
+	#center{
+		width:990px;
+		margin:0 auto;
+		text-align:left;
+	}
+	
+	/*************************************************************************************************************/
+	/* SWITCHER LANG 
+	/*************************************************************************************************************/
+	#top-line{
+		width:100%;
+		background: url(../img/lang/bg-line.png) repeat-x top left;
+	}
+	
+	#lang-switcher {
+		width:990px;
+		margin:0 auto;
+	}
+	
+	#lang-switcher-float {
+		float:right;
+		text-align:right;
+	}
+		
+	#lang-switcher ul{
+		padding-top:3px;
+	}
+	
+	#lang-switcher ul li{
+		list-style-type: none;
+		float:left;
+		width:16px;
+		padding: 0 5px;
+	}
+	
+	#lang-switcher ul li.active, #lang-switcher ul li.hover{
+		background: url(../img/lang/arrow.png) no-repeat top center;
+	}
+	
+	#lang-switcher ul li img, #lang-switcher ul li img.hover{
+		cursor:pointer;
+		margin-top:10px;
+		opacity:1;
+		filter:alpha(opacity=100);
+	}
+	
+	
+	#lang-switcher ul li img.opacity{
+		opacity:0.3;
+		filter:alpha(opacity=30);
+	}
+	
+	/*************************************************************************************************************/
+	/* TOP 
+	/*************************************************************************************************************/
+	#top{
+		width:990px;
+		height:100px;
+		padding-top:40px;
+		margin-bottom:40px;
+	}
+	
+	#logo{
+		width:284px;
+		height:87px;
+		float:left;
+		margin-left:50px;
+	}
+	
+	#form_lng{
+		width:50px;
+		height:30px;
+		float:right;
+	}
+	
+	#form_lng img{
+		cursor:pointer;
+	}
+	
+	
+	/*************************************************************************************************************/
+	/* MENU */
+	/*************************************************************************************************************/
+	
+	#menu { 
+		float:right;
+		width:470px;
+		height:50px;
+  }
+	
+	#menu div.link{
+		cursor:pointer;
+		float:left;		
+		display:inline;	
+		padding:5px 15px 0 15px;
+		position:relative
+	}
+	
+	#menu div.link.last{
+		padding-right:0;
+	}
+	
+	#menu div.link a{
+		text-decoration:none;
+	}
+	
+	#menu div.link a .iconLink{
+		position:absolute;
+		width:20px;
+		height:20px;
+	}
+	
+	#menu div.link.about a .iconLink{
+		background-image: url(../img/top/about.png);
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+
+	#menu div.link.webfolio a .iconLink{
+		background-image: url(../img/top/webfolio.png);
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+	
+	#menu div.link.contact a .iconLink{
+		background-image: url(../img/top/contact.png);
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+	
+	#menu div.link a:hover .iconLink{
+		background-position: 0 -20px;
+	}
+	
+
+	#menu div.link a span.title{
+		font-size: 18px;
+		color:#6d6d6d;
+		margin-left:30px;
+	}
+	
+	#menu div.link a:hover span.title{
+		color:#ff0076;
+	}
+		
+	#menu div.link a span.subtitle{
+		display:block;
+		font-size:12px;
+		color:#abaaaa;
+		letter-spacing:-1px;
+		margin-top:8px;
+	}
+	
+	#menu div.link a:hover span.subtitle{
+		color:#ff0076;
+	}
+	
+	#menu div.sep{
+		float:left;
+		width:2px;
+	}
+	
+	/*************************************************************************************************************/
+	/* CONTAINERS */
+	/*************************************************************************************************************/
+	
+	#about, #skill, #experience, #webfolio, #contact, #footer{
+		width:990px;
+		margin:0 auto;
+	}
+	
+	#about h3, #skill h3, #experience h3, #webfolio h3, #contact h3{
+		font-size:30px;
+		color:#6d6d6d;
+		letter-spacing:-1px;
+		height:60px;
+	}
+	
+	/*************************************************************************************************************/
+	/* ABOUT */
+	
+	#about .baseline{
+		float:left;
+		width:656px;
+		height:400px;
+		text-align:right;
+		margin-top:40px;
+	}
+	
+	#about .baseline h3{
+		font-size:26px;	
+	}
+	
+	#about .baseline h3 cufon{
+		padding-bottom:15px;
+	}
+	
+	#about .baseline h3 span.normal, #about .baseline h3 span.small{
+		display:block;
+	}
+			
+	#about .baseline h3 span.pink{
+		color:#fe3290;
+	}
+	
+	#about .baseline h3 span.big{
+		font-size:30px;
+	}
+	
+	#about .baseline h3 span.small{
+		font-size:22px;
+	}
+	
+	#about .post-it{
+		float:right;
+		width:310px;
+		height:453px;
+		background: url(../img/top/bg_post-it.png) no-repeat top left;	
+	}
+	
+	#about .post-it .icons{
+		background-image: url(../img/top/icons.png);
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		padding-left:45px;
+		margin-top: 60px;
+		margin-left: 45px;
+		height:248px;
+	}
+	
+	#about .post-it .icons .item{
+		margin-bottom:40px;
+	}
+	
+	#about .post-it .icons div.title{
+		font-size:14px;
+		color:#6d6d6d;
+		letter-spacing:-1px;
+	}
+	
+	#about .post-it .icons div.title.only{
+		padding-top:8px;
+	}
+	
+	#about .post-it .icons div.subtitle{
+		font-size:11px;
+	}
+	
+	#about div.button{
+		margin-top:30px;
+		margin-left:74px;
+	}
+	
+	#about a.download{
+		background-image: url(../img/top/download.png);
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		width:164px;
+		height:47px;
+		display:block;
+		color:#6D6D6D;
+	}
+	
+	#about a.download span.title{
+		font-size: 11px;
+		letter-spacing: 0;
+		font-weight: bold;
+		padding-top:10px;
+		padding-left:15px;
+		display:block;
+	}
+	
+	#about a.download span.subtitle{
+		font-size:9px;
+		color: #ABAAAA;
+		margin-top:2px;
+		padding-left:15px;
+		display:block;
+	}
+	
+	#about a.download:hover{
+		background-image: url(../img/top/download.png);
+		background-position: 0 -47px;
+		background-repeat: no-repeat;
+	}
+	
+	/*************************************************************************************************************/
+	/* EXPERIENCE */
+	
+	#experience{
+		margin-top:80px;
+	}
+	
+	
+	/*************************************************************************************************************/
+	/* SKILL */
+	
+	#skill{
+		margin-top:50px;
+	}
+	
+	#skill .graphShadowTop{
+		width:16px;
+		height:50px;
+		background: url(../img/skill/shadowTop.png) no-repeat 0 0;
+	}
+	
+	#skill .graphShadowBottom{
+		width:16px;
+		height:50px;
+		background: url(../img/skill/shadowBottom.png) no-repeat 0 0;
+	}
+	
+	#skill .graphShadow{
+		z-index:100;
+		width:16px;
+		background: url(../img/skill/shadow.png) repeat-y 0 0;
+		position:absolute;
+	}
+	
+	#skill .graph{
+		float:left;
+		position:relative;
+		width:500px;
+		margin-top:30px;
+	}
+	
+	#skill .graph .graphBars{
+		z-index:10;
+	}
+	
+	#skill .graph .skill{
+		background: url(../img/skill/skill.jpg) repeat-x 0 0;
+		margin-bottom:5px;
+		text-align:right;
+		font-size: 10px;
+		color:#ffffff;
+		font-weight: bold;
+		padding: 5px 10px 5px 0;
+		cursor:pointer;
+	}
+	
+	#skill .graph .skill.last{
+		margin-bottom:0;
+	}
+	
+	#skill .graph .skill.hover{
+		background-position: bottom left;
+	}
+	
+	#skill .graph .skill.expert{
+		width:90%;
+	}
+	
+	#skill .graph .skill.advanced{
+		width:80%;
+	}
+	
+	#skill .graph .skill.medium{
+		width:60%;
+	}
+	
+	#skill .graph .skill.basic{
+		width:40%;
+	}
+
+	#skill .text{
+		float:right;
+		width:460px;
+		font-size:12px;
+		line-height:20px;
+		text-align:justify;
+	}
+	
+	/*************************************************************************************************************/
+	/* BACK TO TOP */
+	
+	#to-top{
+		width:100%;
+		height:50px;
+		margin:20px auto;
+		position:relative;
+	}
+	
+	#to-top hr{
+		position:absolute;
+		background: none repeat scroll 0 0 #d1d1d1;
+		border: medium none;
+		width:100%;
+		/*border-color: #d1d1d1;
+		border-right: 0 none;
+		border-style: solid none none;
+		border-width: 1px 0 0;*/
+		display: block;
+		height: 1px;
+		margin: 1em auto;
+		padding: 0;
+		z-index:5;
+	}
+
+	#to-top .buttons{
+		right: 20px;
+		z-index: 10;
+		position: absolute;
+		top: -2px;
+	}
+	
+	#to-top-webfolio{
+		width:100%;
+		height:50px;
+		margin:0 auto;
+		position:relative;
+	}
+	
+	#to-top-webfolio .buttons{
+		right: 20px;
+		z-index: 10;
+		position: absolute;
+		top: 30px;
+	}
+	
+	#to-top .to-about, #to-top .to-webfolio, #to-top .to-contact, #to-top-webfolio .to-about, #to-top-webfolio .to-webfolio, #to-top-webfolio .to-contact{
+		float:left;
+		margin:0 20px;
+		cursor:pointer;
+	}
+
+	/*************************************************************************************************************/
+	/* CONTACT */
+	
+
+	#contact-background{
+		width:100%;
+		background: #242629 url(../img/contact/bg_contact.png) repeat-x top left;
+	}
+	
+	#contact{
+		text-align:left;
+	}
+	
+	#contact h3{
+		font-size:30px;
+		color:#f8f8f8;
+		letter-spacing:-1px;
+		height:40px;
+	}
+	
+	#contact .left{
+		width:560px;
+		margin-right:50px;
+		float:left;		
+		display:inline;
+		
+	}
+	
+	#contact .left .text{
+		color:#919191;
+		font-size:12px;
+		line-height:18px;
+	}
+	
+	#contact .right{
+		width:350px;
+		float:right;		
+		display:inline;
+	}
+	
+	/**********************************************************/
+	/* FORM */
+	
+	#formContact p{
+		margin:10px 0;
+		position:relative;
+	}
+	
+	#formContact p.bg_input{
+		/*width:540px;*/
+		padding:0 5px;
+		height:36px;
+		background: transparent url(../img/contact/input.png) no-repeat top left;
+	}
+	
+	#formContact p.bg_textarea{
+		width:541px;
+		padding:0 5px;
+		height:176px;
+		background: transparent url(../img/contact/textarea.png) no-repeat top left;
+	}
+	
+	#formContact label{
+		font-size:14px;
+		color:#919191;
+		letter-spacing:-1px;
+		margin:0 5px;
+		z-index:10;
+		cursor:text;
+		position:absolute;
+		top:8px;
+	}
+	
+	#formContact input{
+		width:430px;
+		padding-left:80px;
+		border:0;
+		color:#f8f8f8;
+		background:none;
+		font-family:Tahoma, Arial;
+		font-size:12px;
+		z-index:30;
+		height:34px;
+	}
+	
+	#formContact textarea{
+		width:530px;
+		padding:40px 5px 0 5px;
+		height:100px;
+		border:0;
+		color:#f8f8f8;
+		background:none;
+		font-family:Tahoma, Arial;
+		font-size:12px;
+	}
+	
+	
+	#formContact span.error{
+		background:transparent url("../img/contact/error.png") no-repeat top left;
+		width:16px;
+		height:16px;
+		position:absolute;
+		right:16px;
+		top:10px;
+		display:none;
+	}
+	
+	#formContact span.textarea_error{
+		background:transparent url("../img/contact/error.png") no-repeat top left;
+		height:16px;
+		position:absolute;
+		right:10px;
+		bottom:8px;
+		padding-left:20px;
+		font-size:14px;
+		letter-spacing:-1px;
+		display:none;
+		color:#f8f8f8;
+	}
+
+	input, textarea{
+		outline-width: 0;
+	}
+	 
+	#formContact input.submit{
+		width:83px;
+		height:37px;
+		border:0;
+		float:right;
+		cursor:pointer;
+		margin-right:10px;
+	}
+	
+	#formContact input.submit_FR_FR{
+		background:transparent url("../img/contact/submit.png") no-repeat 0 0;
+	}
+	
+	
+	#formContact input.submit_ES_ES{
+		background:transparent url("../img/contact/submit.png") no-repeat 0 -74px;
+	}
+	
+	#formContact input.submit_EN_GB{
+		background:transparent url("../img/contact/submit.png") no-repeat 0 -148px;
+	}
+	
+	
+	#formContact input.submit_FR_FR.hover{
+		background:transparent url("../img/contact/submit.png") no-repeat 0 -37px;
+	}
+	
+	#formContact input.submit_ES_ES.hover{
+		background:transparent url("../img/contact/submit.png") no-repeat 0 -111px;
+	}
+	
+	#formContact input.submit_EN_GB.hover{
+		background:transparent url("../img/contact/submit.png") no-repeat 0 -185px;
+	}
+	
+	
+	#formContact label.submit{
+		position:absolute;
+		right:20px;
+		top:6px;
+		z-index:50;
+		cursor:pointer;
+		color:#6d6d6d;
+		font-size:14px;
+		letter-spacing:-1px;
+	}
+	
+	#message_error {
+		background:transparent url("../img/contact/error.png") no-repeat top left;
+		color:#666666;
+		font-size:11px;
+		display:block;
+		float:left;
+		padding:0 0 0 26px;
+		position:absolute;
+	}
+	
+	#contactError {
+		background:transparent url("../img/contact/error.png") no-repeat top left;
+		color:#fff;
+		font-size: 14px;
+		letter-spacing: -1px;
+		padding:0 0 0 26px;
+	}
+	
+	#contactOk{
+		background:transparent url("../img/contact/valid.png") no-repeat top left;
+		color:#fff;
+		font-size: 14px;
+		letter-spacing: -1px;
+		padding:0 0 0 26px;
+	}
+	
+	/*************************************************************************************************************/
+	/* CONTACT RIGHT : ICONS + GMAP */
+	#social .icon{
+		height:35px;
+		margin-bottom:10px;
+	}
+	
+	#social .icon img{
+		vertical-align:middle;
+		margin-right:10px;
+	}
+	
+	#social .text{
+		color:#919191;
+		font-size:18px;
+		letter-spacing:-1px;
+	}
+	
+	#social .icon a{
+		font-size:12px;
+		color:#e2e2e2;
+	}
+	
+	#social .icon a:hover{
+		text-decoration:underline;
+	}
+	
+	#map{
+		padding:10px;
+		background:#fff;
+	}
+	
+	#gmap{
+		width:330px;
+		height:250px;
+	}
+	
+	#mapShadow{
+		background:transparent url("../img/contact/mapShadow.png") no-repeat bottom center;
+		height: 285px;
+	}
+	
+	.gmap_marker{
+		font-family: Tahoma,Lucida,Arial,Helvetica,sans-serif;
+	}
+	
+	.gmap_marker .title{
+		color: #fe3291;
+		font-size:14px;
+		font-weight:bold;
+		/*text-transform:uppercase;
+		background:#fe3291;*/
+		padding:3px;
+		margin-bottom:10px;
+	}
+	
+	.gmap_marker .text{
+		color: #6D6D6D;
+		font-size:11px;
+	}
+	
+	/*************************************************************************************************************/
+	/* FOOTER */
+	#footer { 
+		margin-top:50px;
+		padding: 20px 0;
+	}
+	
+	#footer .text{
+		margin-top:30px;
+		font-size:10px;
+		color:#6a6a6a;
+		text-align:center;
+	}
+	
+	/*************************************************************************************************************/
+	/* QTIP STYLES */
+	/*************************************************************************************************************/
+	.qtip-contentWrapper{
+		font-size: 11px; 
+	}
+
+	/*************************************************************************************************************/
+	/* TEMP STYLES */
+	/*************************************************************************************************************/
+	
+	#temp{
+		width:990px;
+		margin:0 auto;
+	}
+	
+	#temp h3{
+		font-size:30px;
+		color:#6d6d6d;
+		letter-spacing:-1px;
+		height:60px;
+	}
+	
+	#temp h3.pink{
+		color:#fe3291;
+	}

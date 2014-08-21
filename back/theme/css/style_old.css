@@ -1,0 +1,168 @@
+  
+	* {
+		margin:0;
+		padding:0;
+	}
+	
+	body { 
+		font-family: Tahoma,Lucida,Arial,Helvetica,sans-serif;
+		background: #f8f8f8;
+		color:#abaaaa;
+   }
+	
+	a {
+		color:#ff0076;
+		text-decoration:none;
+		outline: 0 none;
+	}
+	
+	img {
+		border:none
+	}
+	
+	.clear {
+		clear:both;
+	}
+	
+	#container{ 
+		width:960px;
+		height:390px;
+		margin:0 20px;
+  }		
+	
+	#back_titre{
+		width:990px;
+		background:#FF6000;
+		color:#fff;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	#back_menu{
+		width:980px;
+		height:30px;
+		line-height:30px;
+		background:#FF6000;
+		color:#fff;
+		font-weight:bold;
+		padding-left:10px;
+		font-size: 11px;
+	}
+	
+	#back_menu a{
+		color:#fff;
+		font-weight:bold;
+	}
+	
+	#back_menu a:hover{
+		text-decoration:underline;
+	}
+	
+	#back_login{
+		width:350px;
+		text-align:center;
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+		margin:0 auto;
+	}
+	
+	label{
+		width:100px;
+		float:left;
+	}
+	
+	input.inp_text{
+		width:200px;
+		float:left;
+		height:15px;
+		border:1px solid #dcdcdc;
+	}
+	
+	input.inp_submit{
+		width:100px;
+		height:20px;
+		background:#7CB60E;
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+		border:1px solid #dcdcdc;
+	}
+	
+	#back_login p{
+		margin:10px 0;
+	}
+	
+	#div_error{
+		background:#ce0000;
+		color:#fff;
+		font-weight:bold;
+		text-align:center;
+		height:40px;
+		line-height:40px;
+	}
+	
+	.liste{
+		background:#fff;
+		border-top:1px solid #FF6000;
+		height:30px;
+		line-height:30px;
+		color:#FF6000;
+	}
+	
+	.liste img{
+		margin-top:6px;
+		margin-left:6px;
+	}
+	
+	#form_modif{
+		background:#fff;
+		border-top:1px solid #FF6000;
+		color:#FF6000;
+		padding:20px;
+	}
+	
+	#form_modif label{
+		width:300px;
+		float:left;
+	}
+	
+	#form_modif input.texte{
+		border:1px solid #FF6000;
+		float:left;
+		width:400px;
+	}
+	
+	#form_modif select.sel{
+		border:1px solid #FF6000;
+		float:left;
+	}
+	
+	#form_modif textarea{
+		border:1px solid #FF6000;
+		width:400px;
+		height:300px;
+		float:left;
+	}
+	
+	#form_modif p{
+		margin:10px 0;
+	}
+	/* HEADER */
+	
+	#header { 
+		position: relative;
+		background: transparent url(../../images/fr/header.gif) no-repeat top left;
+		width: 990px;
+		height:105px;
+    }
+	
+	
+	/* FOOTER */
+	#footer { 
+		position: relative;
+		width: 990px;
+		height:105px;
+   }
+
+	

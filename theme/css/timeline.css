@@ -1,0 +1,66 @@
+/*****************************************************************
+/* Timeline CSS */
+
+#timeline{
+	width:990px;
+	height:170px;
+	padding:100px 0;
+	margin:0 auto;
+	position:relative;
+	background: url(../img/timeline/bg_timeline.png) no-repeat top left;
+}
+
+#timeline .start, #timeline .end{
+	float:left;
+	font-size:18px;
+	color: #ff0076;
+	letter-spacing:-1px;
+	width:75px;
+}
+
+#timeline .start{
+	margin-right:20px;
+	text-align:right;
+}
+
+#timeline .end{
+	margin-left:20px;
+	text-align:left;
+}
+
+#timeline .line{
+	background: url(../img/timeline/line.png) repeat-x center left;
+	width:800px;
+	height:22px;
+	float:left;
+	position:relative;
+}
+
+#timeline .pin-school{
+	background: transparent url(../img/timeline/pin_school.png) no-repeat top left;
+	width:20px;
+	height:27px;
+	position:absolute;
+	top:9px;
+	cursor:pointer;
+}
+
+#timeline .pin-work{
+	background: transparent url(../img/timeline/pin_work.png) no-repeat top left;
+	width:20px;
+	height:27px;
+	position:absolute;
+	top:-14px;
+	cursor:pointer;
+}
+
+#timeline .pin-school.hover, #timeline .pin-work.hover{
+	background-position: bottom left;
+}
+
+#timeline .pin-school .text-pin, #timeline .pin-work .text-pin{
+	display:none;
+	position:absolute;
+}
+
+

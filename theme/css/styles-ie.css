@@ -1,0 +1,11 @@
+#menu div.link a span.subtitle{
+	margin-top:5px;
+}
+
+#about .baseline h3 {
+	line-height:40px;
+}
+	
+#formContact input{
+	line-height:30px;
+}

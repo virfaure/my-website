@@ -1,0 +1,78 @@
+/* Container Project in Colorfancybox */
+.fancyboxProject { 
+	background: #eeeeee url(../img/fancybox/bg_box.gif) repeat-x left top; 
+	font-size:11px; 
+	max-width:1100px;
+	text-align:left;
+}
+
+.fancyboxProjectLeft { 
+	border:1px solid #EEEEEE; 
+	padding:5px; 
+}
+
+.fancyboxProjectRight { 
+	width: 430px; 
+	padding-left:20px; 
+	padding-right:5px;
+	vertical-align:top;
+}
+
+.fancyboxProjectTitle {
+	font-size:12px;
+	font-weight:bold;
+	color:#fe3291;
+	margin-bottom:10px;
+}
+
+.fancyboxProjectDescription {
+	font-size:11px;
+	text-align:justify;
+	color:#6d6d6d;
+	padding-bottom:20px;
+}
+
+.fancyboxProjectDescription a{
+	font-weight:bold;
+	color:#6d6d6d;
+}
+
+.fancyboxProjectDescription a:hover{
+	text-decoration:underline;
+}
+
+#fancyboxProjectClose{
+	display:block; 
+	color:#444; 
+	border-top: 1px solid #DDD; 
+	padding-top: 5px; 
+	text-align: right;
+}
+ 
+#fancyboxProjectBtnClose{
+	cursor:pointer;
+}
+
+ul.work-list {
+	float:left;
+	display:inline;
+	list-style-type:none;
+	width:200px;
+}
+
+ul.work-list2 {
+	float:left;
+	display:inline;
+	list-style-type:none;
+	width:200px;
+	margin-left:30px;
+}
+
+ul.work-list li, ul.work-list2 li  {
+	background:url("../img/fancybox/checkmark.png") no-repeat scroll top left transparent;
+	padding-left:20px;
+	height:18px;
+	font-weight:bold;
+	font-size:11px;
+	text-align:left;
+}

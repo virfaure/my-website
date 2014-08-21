@@ -1,0 +1,53 @@
+body.popup_facebox { background: none; }
+.popup_facebox_cont { width: 780px; padding: 20px 10px 20px 10px; background: #eeeeee url(../img/facebox/bg_facebox.gif) left top repeat-x; }
+.popup_facebox_left { border:1px solid #EEEEEE; float:left; padding:5px; width:320px; }
+.popup_facebox_right { width: 430px; float: right; }
+
+
+.project_title {
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#6d6d6d;
+	margin-bottom:10px;
+}
+
+.project_desc {
+	font-size:11px;
+	text-align:justify;
+	color:#6d6d6d;
+	padding-bottom:20px;
+}
+
+ul.work-list {
+	float:left;
+	display:inline;
+	list-style-type:none;
+	width:200px;
+}
+
+ul.work-list2 {
+	float:left;
+	display:inline;
+	list-style-type:none;
+	width:200px;
+	margin-left:30px;
+}
+
+ul.work-list li, ul.work-list2 li  {
+	background:url("../img/facebox/checkmark.png") no-repeat scroll top left transparent;
+	padding-left:20px;
+	height:18px;
+	font-weight:bold;
+	font-size:11px;
+	text-align:left;
+}
+
+.project_desc a{
+	color:#FF0076;
+	font-weight:bold;
+}
+
+.project_desc a:hover{
+	text-decoration:underline;
+}

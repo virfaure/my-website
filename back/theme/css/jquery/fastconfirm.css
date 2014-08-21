@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+/*********************/
+/* Can't touch this! */
+/*********************/
+
+.fast_confirm {
+	position: absolute;
+	
+	/* Position off-screen, show only when everything is ready */
+	top: -500px;
+	left: -500px;
+}
+/* IE6 */
+.fast_confirm {
+    _border-left-color: pink;
+    _border-bottom-color: pink;
+    _border-right-color: pink;
+    _filter: chroma(color=pink);
+}
+
+
+/*******************************/
+/* You can configure from here */
+/*******************************/
+
+/* BOX */
+
+.fast_confirm {
+	background-color: #fff;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #ce005c;
+	font:11px Tahoma, Verdana, Arial; 
+}
+
+.red.fast_confirm {
+	border: 2px solid #ce0000;
+}
+
+.fast_confirm_question{
+	font-size: 11px;
+	font-weight:bold;
+	color:#6d6d6d;
+}
+
+/* ARROWS */
+
+/* Top arrow */
+.fast_confirm .fast_confirm_top.fast_confirm_arrow {
+	position: absolute;
+	top: -10px;
+	
+	border-color: transparent transparent #fff;
+	border-style: solid;
+	border-width: 0 11px 11px;
+	height: 0;
+	width: 0;
+}
+.fast_confirm .fast_confirm_top.fast_confirm_arrow_border {
+	position: absolute;
+	top: -12px;
+	
+	border-color: transparent transparent #ce005c;
+	border-style: solid;
+	border-width: 0 13px 13px;
+	height: 0;
+	width: 0;
+}
+
+/* Right arrow */
+.fast_confirm .fast_confirm_right.fast_confirm_arrow {
+	position: absolute;
+	right: -10px;
+	
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 11px 0 11px 11px;
+	height: 0;
+	width: 0;
+}
+.fast_confirm .fast_confirm_right.fast_confirm_arrow_border {
+	position: absolute;
+	right: -12px;
+	
+	border-color: transparent transparent transparent #ce005c;
+	border-style: solid;
+	border-width: 13px 0 13px 13px;
+	height: 0;
+	width: 0;
+}
+
+/* Bottom arrow */
+.fast_confirm .fast_confirm_bottom.fast_confirm_arrow {
+	position: absolute;
+	bottom: -10px;
+	
+	border-color: #fff transparent transparent;
+	border-style: solid;
+	border-width: 11px 11px 0 11px;
+	height: 0;
+	width: 0;
+}
+.fast_confirm .fast_confirm_bottom.fast_confirm_arrow_border {
+	position: absolute;
+	bottom: -12px;
+	
+	border-color: #ce005c transparent transparent;
+	border-style: solid;
+	border-width: 13px 13px 0 13px;
+	height: 0;
+	width: 0;
+}
+
+/* Left arrow */
+.fast_confirm .fast_confirm_left.fast_confirm_arrow {
+	position: absolute;
+	left: -10px;
+	
+	border-color: transparent #fff transparent transparent;
+	border-style: solid;
+	border-width: 11px 11px 11px 0;
+	height: 0;
+	width: 0;
+}
+.fast_confirm .fast_confirm_left.fast_confirm_arrow_border {
+	position: absolute;
+	left: -12px;
+	
+	border-color: transparent #ce005c transparent transparent;
+	border-style: solid;
+	border-width: 13px 13px 13px 0;
+	height: 0;
+	width: 0;
+}
+
+.red.fast_confirm .fast_confirm_left.fast_confirm_arrow_border {
+	border-color: transparent #ce0000 transparent transparent;
+}
+
+/* BUTTONS */
+.fast_confirm button{
+	margin:0 20px;
+}
+
+/* Proceed button */
+.fast_confirm button.fast_confirm_proceed {
+	padding: 2px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma, Arial, sans-serif;
+	cursor: pointer;
+	background:#fe3291 url("../../img/btn-overlay.png") repeat-x !important;
+	overflow: visible; 
+	color: #fff !important;
+	border:1px solid #e00064 !important;
+}
+
+.fast_confirm button.fast_confirm_proceed:hover {
+	border:1px solid #e00064 !important;
+	opacity:0.8;
+	-khtml-opacity: .8;
+	-moz-opacity: 0.8;
+}
+
+/* RED : Proceed button = Cancel Button*/
+.red.fast_confirm button.fast_confirm_proceed {
+	padding: 2px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma, Arial, sans-serif;
+	cursor: pointer;
+	background: url("../../img/btn-overlay.png") repeat-x !important;
+	overflow: visible; 
+	color: #777 !important;
+	border:1px solid #ccc !important;
+}
+
+.red.fast_confirm button.fast_confirm_proceed:hover {
+	border:1px solid #ccc !important;
+	opacity:0.8;
+	-khtml-opacity: .8;
+	-moz-opacity: 0.8;
+}
+
+/* Cancel button */
+.fast_confirm button.fast_confirm_cancel {
+	padding: 2px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma, Arial, sans-serif;
+	cursor: pointer;
+	background:url("../../img/btn-overlay.png") repeat-x !important;
+	overflow: visible; 
+	color: #777 !important;
+	border:1px solid #ccc !important;
+}
+
+.fast_confirm button.fast_confirm_cancel:hover {
+	border:1px solid #ccc !important;
+	opacity:0.8;
+	-khtml-opacity: .8;
+	-moz-opacity: 0.8;
+}
+
+
+
+#popup_container {
+	font:12px Tahoma, Verdana, Arial; 
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+}
+
+#popup_container.red {
+	border: 2px solid #ce0000;
+	color:#ce0000;
+}
+
+#popup_container.green {
+	border: 2px solid #749217;
+	color:#749217;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #CCC;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat;
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_container.red #popup_content.alert {
+	background-image: url("../../img/big-error.png");
+}
+
+#popup_container.red #popup_ok{
+	padding: 2px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma, Arial, sans-serif;
+	cursor: pointer;
+	background:url("../../img/btn-overlay.png") repeat-x !important;
+	overflow: visible; 
+	color: #777 !important;
+	border:1px solid #ccc !important;
+}
+
+#popup_container.red #popup_ok:hover {
+	border:1px solid #ccc !important;
+	opacity:0.8;
+	-khtml-opacity: .8;
+	-moz-opacity: 0.8;
+}
+
+#popup_container.green #popup_content.alert {
+	background-image: url("../../img/big-valid.png");
+}
+
+#popup_container.green #popup_ok{
+	padding: 2px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Tahoma, Arial, sans-serif;
+	cursor: pointer;
+	background:url("../../img/btn-overlay.png") repeat-x !important;
+	overflow: visible; 
+	color: #fff !important;
+	border:1px solid #749217 !important;
+	background-color: #6AB620 !important;
+}
+
+#popup_container.green #popup_ok:hover {
+	border:1px solid #ccc !important;
+	opacity:0.8;
+	-khtml-opacity: .8;
+	-moz-opacity: 0.8;
+}
+
+#popup_content.confirm {
+
+}
+
+#popup_content.prompt {
+
+}
+
+#popup_message {
+	padding-left: 48px;
+	padding-top: 10px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
